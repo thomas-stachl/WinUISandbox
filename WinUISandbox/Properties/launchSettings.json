@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WinUISandbox (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "WinUISandbox (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UserControl
+    x:Class="WinUISandbox.MyUserControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:WinUISandbox"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="Root">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Button
+            x:Name="Hello"
+            Click="Hello_Click"
+            Content="Hello"
+            Opacity="1" />
+        <Button
+            x:Name="World"
+            Grid.Column="1"
+            Click="World_Click"
+            Content="World"
+            Opacity="0" />
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="DefaultGroups">
+                <VisualState x:Name="ShowHello">
+                    <Storyboard>
+                        <DoubleAnimation
+                            Storyboard.TargetName="Hello"
+                            Storyboard.TargetProperty="Opacity"
+                            To="1"
+                            Duration="0:0:0.5" />
+                        <DoubleAnimation
+                            Storyboard.TargetName="World"
+                            Storyboard.TargetProperty="Opacity"
+                            To="0"
+                            Duration="0:0:0.5" />
+                    </Storyboard>
+                </VisualState>
+                <VisualState x:Name="ShowWorld">
+                    <Storyboard>
+                        <DoubleAnimation
+                            Storyboard.TargetName="Hello"
+                            Storyboard.TargetProperty="Opacity"
+                            To="0"
+                            Duration="0:0:0.5" />
+                        <DoubleAnimation
+                            Storyboard.TargetName="World"
+                            Storyboard.TargetProperty="Opacity"
+                            To="1"
+                            Duration="0:0:0.5" />
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</UserControl>
