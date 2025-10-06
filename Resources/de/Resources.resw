@@ -136,7 +136,7 @@
     <value>Erkunden Sie Ihr Gerät</value>
   </data>
   <data name="OnboardingWizard_MuteMic_Title" xml:space="preserve">
-    <value>Stummschalten Sie Ihr Mikrofon sofort</value>
+    <value>Mikrofon sofort stummschalten</value>
   </data>
   <data name="OnboardingWizard_MuteMic_Description" xml:space="preserve">
     <value>Müssen Sie sich kurz entfernen oder während eines Streams oder Anrufs schnell stummschalten? Tippen Sie einfach auf die LED – rot bedeutet, dass Sie stummgeschaltet sind.</value>
