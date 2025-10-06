@@ -1,0 +1,788 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NavigationBar_Mixes" xml:space="preserve">
+    <value>Mixes</value>
+  </data>
+  <data name="OnboardingWizard_SetupDevice_Title" xml:space="preserve">
+    <value>Set up your {0}</value>
+  </data>
+  <data name="OnboardingWizard_SetupDevice_Description" xml:space="preserve">
+    <value>Let’s walk through a quick setup to make sure everything works the way you want — and sounds just right.</value>
+  </data>
+  <data name="OnboardingWizard_GetStarted" xml:space="preserve">
+    <value>Get started</value>
+  </data>
+  <data name="OnboardingWizard_Skip" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="OnboardingWizard_ExploreDevice_Title" xml:space="preserve">
+    <value>Explore your device</value>
+  </data>
+  <data name="OnboardingWizard_MuteMic_Title" xml:space="preserve">
+    <value>Instantly mute your mic</value>
+  </data>
+  <data name="OnboardingWizard_MuteMic_Description" xml:space="preserve">
+    <value>Need to step away or mute quickly during a stream or call? Just tap the LED — red means you're muted.</value>
+  </data>
+  <data name="OnboardingWizard_ConnectHeadphones_Title" xml:space="preserve">
+    <value>Connect your headphones</value>
+  </data>
+  <data name="OnboardingWizard_ConnectHeadphones_Description" xml:space="preserve">
+    <value>Plug your headphones into the 3.5mm port on the back of your {0}, then use the audio sample below to fine-tune your output volume.</value>
+  </data>
+  <data name="OnboardingWizard_MicrophonePosition_Title" xml:space="preserve">
+    <value>Position your mic</value>
+  </data>
+  <data name="OnboardingWizard_Gain_Title" xml:space="preserve">
+    <value>Let’s set your gain</value>
+  </data>
+  <data name="OnboardingWizard_Gain_Description" xml:space="preserve">
+    <value>Speak at your normal volume while watching the meter below.
+
+Aim to keep your voice mostly in the green, near the target zone (around –12 dB).
+
+Use the slider to adjust your input gain until you’re in the safe range — not too quiet, not too loud.</value>
+  </data>
+  <data name="OnboardingWizard_Monitoring_Title" xml:space="preserve">
+    <value>Try real-time voice monitoring</value>
+  </data>
+  <data name="OnboardingWizard_Finish_Title" xml:space="preserve">
+    <value>{0} is ready!</value>
+  </data>
+  <data name="OnboardingWizard_Finish_Description" xml:space="preserve">
+    <value>Your mic is fully set up and optimized.
+Tweak settings anytime in Wave Link.</value>
+  </data>
+  <data name="OnboardingWizard_Finish" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="OnboardingWizard_Restart" xml:space="preserve">
+    <value>Restart setup</value>
+  </data>
+  <data name="OnboardingWizard_ConnectMicrophone_Title" xml:space="preserve">
+    <value>Connect your microphone</value>
+  </data>
+  <data name="OnboardingWizard_ConnectMicrophone_Description" xml:space="preserve">
+    <value>{0} is ready — just plug in your mic to get started.</value>
+  </data>
+  <data name="OnboardingWizard_OutputVolume_Description" xml:space="preserve">
+    <value>Plug headphones into the back of your {0} to monitor audio in real time. Use the dial to adjust output volume to a comfortable level.</value>
+  </data>
+  <data name="LedDirection_LeftToRight" xml:space="preserve">
+    <value>Left to right (default)</value>
+  </data>
+  <data name="LedDirection_RightToLeft" xml:space="preserve">
+    <value>Right to left (inverted mounting)</value>
+  </data>
+  <data name="XlrMicType_Condenser" xml:space="preserve">
+    <value>Condenser mic</value>
+  </data>
+  <data name="XlrMicType_Dynamic" xml:space="preserve">
+    <value>Dynamic mic</value>
+  </data>
+  <data name="ElgatoDevicePage_TabViewHeader_InputMonitoring" xml:space="preserve">
+    <value>Input &amp; monitoring</value>
+  </data>
+  <data name="ElgatoDevicePage_TabViewHeader_Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="ElgatoDevicePage_StartWizardText" xml:space="preserve">
+    <value>Start device tour</value>
+  </data>
+  <data name="ElgatoDeviceProperties_Header_Input" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="ElgatoDeviceProperties_InputGain" xml:space="preserve">
+    <value>Input gain</value>
+  </data>
+  <data name="WaveXLR_RecommendedGain" xml:space="preserve">
+    <value>Recommended gain</value>
+  </data>
+  <data name="ElgatoDeviceProperties_Header_Monitoring" xml:space="preserve">
+    <value>Monitoring</value>
+  </data>
+  <data name="ElgatoDeviceProperties_OutputVolume" xml:space="preserve">
+    <value>Output volume</value>
+  </data>
+  <data name="ElgatoDevice_Mute" xml:space="preserve">
+    <value>Mute</value>
+  </data>
+  <data name="ElgatoDevice_LowCutOnOff_Title" xml:space="preserve">
+    <value>Lowcut filter</value>
+  </data>
+  <data name="ElgatoDevice_LowCutOnOff_Description" xml:space="preserve">
+    <value>Cuts low-end noise like typing and rumble. Turn off if you want a deeper vocal sound.</value>
+  </data>
+  <data name="ElgatoDevice_Clipguard_Description" xml:space="preserve">
+    <value>Tames loud bursts like excited reactions to keep audio clean and distortion-free.</value>
+  </data>
+  <data name="ElgatoDevice_ClipguardIndicator_Description" xml:space="preserve">
+    <value>Displays a real-time alert when Clipguard prevents distortion.</value>
+  </data>
+  <data name="ElgatoDevice_GainLock_Description" xml:space="preserve">
+    <value>Prevents other apps from changing your mic gain.</value>
+  </data>
+  <data name="ElgatoDevice_LowImpedanceMode_Title" xml:space="preserve">
+    <value>Low Impedance Mode</value>
+  </data>
+  <data name="ElgatoDevice_Clipguard_Title" xml:space="preserve">
+    <value>Clipguard</value>
+  </data>
+  <data name="ElgatoDevice_ClipguardIndicator_Title" xml:space="preserve">
+    <value>Display Clipguard indicator</value>
+  </data>
+  <data name="ElgatoDevice_GainLock_Title" xml:space="preserve">
+    <value>Gain Lock</value>
+  </data>
+  <data name="ElgatoDevicePage_TabViewHeader_Effects" xml:space="preserve">
+    <value>Effects</value>
+  </data>
+  <data name="ElgatoDeviceProperties_AudioEnhancements" xml:space="preserve">
+    <value>Audio enhancements</value>
+  </data>
+  <data name="ElgatoDevice_LowcutXLR_Title" xml:space="preserve">
+    <value>Lowcut Filter</value>
+  </data>
+  <data name="ElgatoDevice_LowcutXLR_Description" xml:space="preserve">
+    <value>Reduces low-end noise below 80 Hz, which is great for cleanup but may thin out deep voices.</value>
+  </data>
+  <data name="ElgatoDeviceProperties_Header_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="ElgatoDeviceProperties_Header_Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="ElgatoDevice_PhantomPower_Title" xml:space="preserve">
+    <value>48V phantom power</value>
+  </data>
+  <data name="ElgatoDevice_PhantomPower_Description" xml:space="preserve">
+    <value>Turn on for condenser mics, turn off for dynamic mics.</value>
+  </data>
+  <data name="ElgatoDevice_DialFunction" xml:space="preserve">
+    <value>Dial function</value>
+  </data>
+  <data name="ElgatoDevice_LedDirection" xml:space="preserve">
+    <value>LED direction</value>
+  </data>
+  <data name="ElgatoDevice_LedBrightness" xml:space="preserve">
+    <value>LED brightness</value>
+  </data>
+  <data name="ElgatoDevice_Firmware" xml:space="preserve">
+    <value>Firmware</value>
+  </data>
+  <data name="SampleRate_Hz48" xml:space="preserve">
+    <value>48 kHz</value>
+  </data>
+  <data name="SampleRate_Hz96" xml:space="preserve">
+    <value>96 kHz</value>
+  </data>
+  <data name="ElgatoDevice_SampleRate" xml:space="preserve">
+    <value>Sample rate</value>
+  </data>
+  <data name="ElgatoDevice_StartOnboardingWizard" xml:space="preserve">
+    <value>Start setup tour</value>
+  </data>
+  <data name="ElgatoDevice_ColorGeneral" xml:space="preserve">
+    <value>General color</value>
+  </data>
+  <data name="ElgatoDevice_ColorMute" xml:space="preserve">
+    <value>Mute color</value>
+  </data>
+  <data name="ElgatoDevice_ColorGainReduction" xml:space="preserve">
+    <value>Gain Reduction color</value>
+  </data>
+  <data name="ElgatoDeviceProperties_Header_MicEnhancements" xml:space="preserve">
+    <value>Mic enhancements</value>
+  </data>
+  <data name="ElgatoDevice_Expander_Title" xml:space="preserve">
+    <value>Expander</value>
+  </data>
+  <data name="ElgatoDevice_Equalizer_Title" xml:space="preserve">
+    <value>Equalizer</value>
+  </data>
+  <data name="ElgatoDevice_BetterMaker_Title" xml:space="preserve">
+    <value>Voice Tune</value>
+  </data>
+  <data name="ElgatoDevice_Expander_Description" xml:space="preserve">
+    <value>Reduces ambient noise without affecting your voice.</value>
+  </data>
+  <data name="AddAudioEffect" xml:space="preserve">
+    <value>Add effect</value>
+  </data>
+  <data name="MiscVendors" xml:space="preserve">
+    <value>Misc. vendors</value>
+  </data>
+  <data name="MiscCategories" xml:space="preserve">
+    <value>Misc. categories</value>
+  </data>
+  <data name="ElgatoDeviceProperties_Header_AudioEffects" xml:space="preserve">
+    <value>Audio effects</value>
+  </data>
+  <data name="ElgatoDevice_VoiceFocus_Title" xml:space="preserve">
+    <value>Voice Focus</value>
+  </data>
+  <data name="ElgatoDevice_AudioEffectValue_Weak" xml:space="preserve">
+    <value>Weak</value>
+  </data>
+  <data name="ElgatoDevice_AudioEffectValue_Strong" xml:space="preserve">
+    <value>Strong</value>
+  </data>
+  <data name="ElgatoDevice_SampleRecorder_Title" xml:space="preserve">
+    <value>Sound Check</value>
+  </data>
+  <data name="MixingTable_Header_MixSettings" xml:space="preserve">
+    <value>Mix settings</value>
+  </data>
+  <data name="MixingTable_Header_AssignedOutputs_Title" xml:space="preserve">
+    <value>Your assigned outputs</value>
+  </data>
+  <data name="MixingTable_Header_MixSettings_SliderVisibility" xml:space="preserve">
+    <value>Always display volume sliders</value>
+  </data>
+  <data name="MixingTable_Header_MixSettings_Maximiser" xml:space="preserve">
+    <value>Maximiser</value>
+  </data>
+  <data name="MainOutputDevice_Title" xml:space="preserve">
+    <value>Main out</value>
+  </data>
+  <data name="SelfMonitoring_NonLinear" xml:space="preserve">
+    <value>Mic/PC mix (blend audio)</value>
+  </data>
+  <data name="SelfMonitoring_Linear" xml:space="preserve">
+    <value>Linear mic mix (set mic level)</value>
+  </data>
+  <data name="SelfMonitoring_IncludeVST" xml:space="preserve">
+    <value>Include VST effects (may add latency)</value>
+  </data>
+  <data name="MixingTable_Element_Muted" xml:space="preserve">
+    <value>Muted</value>
+  </data>
+  <data name="ElgatoDevicePage_Effects_AddLegacyDeviceToMix_Header" xml:space="preserve">
+    <value>You can add audio effects after you’ve added your mic to a mix.</value>
+  </data>
+  <data name="ElgatoDevicePage_Effects_AddLegacyDeviceToMix_AddToThis" xml:space="preserve">
+    <value>Add microphone to this mix</value>
+  </data>
+  <data name="ElgatoDevicePage_Effects_AddLegacyDeviceToMix_Go" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="NavigationBar_YourDevices" xml:space="preserve">
+    <value>Your devices</value>
+  </data>
+  <data name="NavigationBar_NoElgatoDeviceConnected" xml:space="preserve">
+    <value>Connect a device</value>
+  </data>
+  <data name="ElgatoDevice_HighPowerMode_Title" xml:space="preserve">
+    <value>High Power Mode</value>
+  </data>
+  <data name="InputChannel_ElgatoDeviceHardwareInputMute_Title" xml:space="preserve">
+    <value>Muted</value>
+  </data>
+  <data name="ElgatoDevice_LowImpedanceMode_Description" xml:space="preserve">
+    <value>Optimizes audio performance for low-impedance headphones.</value>
+  </data>
+  <data name="ElgatoDevice_HighPowerMode_Description" xml:space="preserve">
+    <value>Optimizes volume and clarity for high-impedance headphones.</value>
+  </data>
+  <data name="ElgatoDevice_SampleRecorder_Description" xml:space="preserve">
+    <value>Record your voice to test effects and adjust your audio before going live.</value>
+  </data>
+  <data name="ElgatoDevice_Compressor_Description" xml:space="preserve">
+    <value>Smooths out highs and lows for a consistent, polished sound.</value>
+  </data>
+  <data name="ElgatoDevice_Compressor_Title" xml:space="preserve">
+    <value>Compressor</value>
+  </data>
+  <data name="ElgatoDevice_Equalizer_Description" xml:space="preserve">
+    <value>Boosts lows for warmth, raises highs for clarity, and cuts muddiness for cleaner sound.</value>
+  </data>
+  <data name="ElgatoDevice_BetterMaker_Description" xml:space="preserve">
+    <value>Adds analog-style compression and gentle harmonic warmth.</value>
+  </data>
+  <data name="ElgatoDevice_Not_Present" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="MixingTable_Header" xml:space="preserve">
+    <value>Mixes</value>
+  </data>
+  <data name="MixingTable_Edit_Output" xml:space="preserve">
+    <value>Edit output</value>
+  </data>
+  <data name="MixingTable_Outputs_Single" xml:space="preserve">
+    <value>1 output</value>
+  </data>
+  <data name="MixingTable_Outputs_Multiple" xml:space="preserve">
+    <value>{0} outputs</value>
+  </data>
+  <data name="MixingTable_Header_Apps" xml:space="preserve">
+    <value>Apps</value>
+  </data>
+  <data name="MixingTable_Header_AssignedApps" xml:space="preserve">
+    <value>Transfer app from other channel</value>
+  </data>
+  <data name="MixingTable_All_Assigned" xml:space="preserve">
+    <value>All apps are assigned to channels</value>
+  </data>
+  <data name="MixingTable_Header_AudioEffects" xml:space="preserve">
+    <value>Audio effects</value>
+  </data>
+  <data name="MixingTable_Header_InputDevices" xml:space="preserve">
+    <value>Input devices</value>
+  </data>
+  <data name="MixingTable_AddChannel_Button" xml:space="preserve">
+    <value>Create channel</value>
+  </data>
+  <data name="MixingTable_AddApp_Button" xml:space="preserve">
+    <value>Add app</value>
+  </data>
+  <data name="MixingTable_RemoveChannel_Button" xml:space="preserve">
+    <value>Remove channel</value>
+  </data>
+  <data name="MixingTable_CloseWindow_Button" xml:space="preserve">
+    <value>Close window</value>
+  </data>
+  <data name="MixingTable_AddOutput_Button" xml:space="preserve">
+    <value>Add output</value>
+  </data>
+  <data name="MixingTable_Header_AudioOutput" xml:space="preserve">
+    <value>Audio output</value>
+  </data>
+  <data name="MixingTable_DeleteMix_Button" xml:space="preserve">
+    <value>Delete mix</value>
+  </data>
+  <data name="MixingTable_Output_Device_All_Assigned" xml:space="preserve">
+    <value>No more output devices available</value>
+  </data>
+  <data name="MixingTable_Output_Device_Virtual" xml:space="preserve">
+    <value>{0} (virtual)</value>
+  </data>
+  <data name="change_channel_icon_title" xml:space="preserve">
+    <value>Select channel icon</value>
+  </data>
+  <data name="standard_app_icon_title" xml:space="preserve">
+    <value>Standard app icon</value>
+  </data>
+  <data name="standard_device_icon_title" xml:space="preserve">
+    <value>Standard icon</value>
+  </data>
+  <data name="music_icon_title" xml:space="preserve">
+    <value>Music icon</value>
+  </data>
+  <data name="browser_icon_title" xml:space="preserve">
+    <value>Browser icon</value>
+  </data>
+  <data name="system_icon_title" xml:space="preserve">
+    <value>System icon</value>
+  </data>
+  <data name="game_icon_title" xml:space="preserve">
+    <value>Game icon</value>
+  </data>
+  <data name="sfx_icon_title" xml:space="preserve">
+    <value>SFX icon</value>
+  </data>
+  <data name="voice_chat_icon_title" xml:space="preserve">
+    <value>Voice chat icon</value>
+  </data>
+  <data name="mic_icon_title" xml:space="preserve">
+    <value>Mic icon</value>
+  </data>
+  <data name="aux_1_icon_title" xml:space="preserve">
+    <value>Aux 1 icon</value>
+  </data>
+  <data name="aux_2_icon_title" xml:space="preserve">
+    <value>Aux 2 icon</value>
+  </data>
+  <data name="Settings_AudioEffectsCategory" xml:space="preserve">
+    <value>Effects</value>
+  </data>
+  <data name="Settings_AudioEffects_Title" xml:space="preserve">
+    <value>Audio effects</value>
+  </data>
+  <data name="Settings_AudioEffects_VST3_Folder_Title" xml:space="preserve">
+    <value>VST3 folder</value>
+  </data>
+  <data name="Settings_AudioEffects_VST2_Folder_Title" xml:space="preserve">
+    <value>VST2 folder</value>
+  </data>
+  <data name="Settings_AudioEffects_Check_for_plugins_Button" xml:space="preserve">
+    <value>Check for plugins</value>
+  </data>
+  <data name="Settings_AudioEffects_AutoScale_Checkbox" xml:space="preserve">
+    <value>Auto-scale plugin windows</value>
+  </data>
+  <data name="Settings_AudioEffects_Notification_Checkbox" xml:space="preserve">
+    <value>Show new plugins at startup</value>
+  </data>
+  <data name="NavigationBar_Marketplace" xml:space="preserve">
+    <value>Marketplace</value>
+  </data>
+  <data name="Settings_AudioEffects_VST2_ChangeFolder" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="Settings_AudioEffects_PluginPath_Title" xml:space="preserve">
+    <value>Plugin paths</value>
+  </data>
+  <data name="Settings_AudioEffects_ManagePlugin_Title" xml:space="preserve">
+    <value>Manage plugins</value>
+  </data>
+  <data name="NavigationBar_MixesAndEffects" xml:space="preserve">
+    <value>Mixes &amp; effects</value>
+  </data>
+  <data name="ElgatoDevice_SelfMonitoring" xml:space="preserve">
+    <value>Self-monitoring</value>
+  </data>
+  <data name="ElgatoDevice_MicPcMix" xml:space="preserve">
+    <value>Mic/PC mix</value>
+  </data>
+  <data name="OnboardingWizard_AutoGain_Description" xml:space="preserve">
+    <value>To get clear, balanced audio, your mic needs the right gain.
+
+Just talk like you normally would for about 10 seconds, and we’ll handle the rest.
+
+Try saying:
+“I’m speaking at a normal volume to test the gain and make sure everything sounds clear, balanced, and natural.”
+
+Click Start when you’re ready.</value>
+  </data>
+  <data name="OnboardingWizard_ControlDial_Title" xml:space="preserve">
+    <value>Multifunctional control dial</value>
+  </data>
+  <data name="OnboardingWizard_Wave1_ControlDial_Description" xml:space="preserve">
+    <value>Use the dial to quickly control key mic functions:</value>
+  </data>
+  <data name="OnboardingWizard_ExploreDevice_Description" xml:space="preserve">
+    <value>Get to know your {0} — one click at a time.</value>
+  </data>
+  <data name="OnboardingWizard_Wave1_Mute_Title" xml:space="preserve">
+    <value>Mute or unmute instantly</value>
+  </data>
+  <data name="OnboardingWizard_Wave1_Mute_Description" xml:space="preserve">
+    <value>Press the dial to mute or unmute your mic. The LED glows red when muted.</value>
+  </data>
+  <data name="OnboardingWizard_Wave1_OutputVolume_Description" xml:space="preserve">
+    <value>Turn the dial to change your output volume. Make sure your headphones are plugged into the 3.5 mm jack on the back.</value>
+  </data>
+  <data name="OnboardingWizard_Wave1_DialFunction_Title" xml:space="preserve">
+    <value>Want to control mic gain instead?</value>
+  </data>
+  <data name="OnboardingWizard_Wave1_DialFunction_Description" xml:space="preserve">
+    <value>You can switch the dial’s function at any time in the Wave Link app.</value>
+  </data>
+  <data name="OnboardingWizard_Wave1_OutputVolume_Title" xml:space="preserve">
+    <value>Adjust output volume</value>
+  </data>
+  <data name="OnboardingWizard_InputGain_Title" xml:space="preserve">
+    <value>Set input gain</value>
+  </data>
+  <data name="OnboardingWizard_InputGain_Description" xml:space="preserve">
+    <value>Input gain controls how much your mic amplifies your voice. More gain means louder audio, but too much can pick up unwanted noise.
+
+Your ideal level depends on how you speak, how far you are from the mic, and the mic itself.</value>
+  </data>
+  <data name="OnboardingWizard_DirectMonitorVolume_Title" xml:space="preserve">
+    <value>Balance mic and PC audio</value>
+  </data>
+  <data name="OnboardingWizard_Wave3_DirectMonitorVolume_Description" xml:space="preserve">
+    <value>Mic/PC mix lets you control what you hear in your headphones — blending your voice (with zero-latency monitoring) and audio from your PC.</value>
+  </data>
+  <data name="OnboardingWizard_Wave3_ControlDial_Description" xml:space="preserve">
+    <value>Adjust mic gain, headphone volume, and your mic/PC mix — all with one dial.</value>
+  </data>
+  <data name="OnboardingWizard_WaveXlrMk12_ControlDial_Description" xml:space="preserve">
+    <value>Control and adjust core settings, including mic gain, headphone volume, mic/PC mix, and Phantom Power.</value>
+  </data>
+  <data name="OnboardingWizard_OutputVolume_Title" xml:space="preserve">
+    <value>Adjust output volume</value>
+  </data>
+  <data name="OnboardingWizard_WaveXlrMk2_DirectMonitorVolume_Description" xml:space="preserve">
+    <value>The self-monitoring controls what you hear in your headphones — balancing your voice (with zero-delay monitoring) and audio from your connected PC.</value>
+  </data>
+  <data name="OnboardingWizard_WaveXlr_PhantomPower_Description" xml:space="preserve">
+    <value>To power your condenser mic, press and hold the control dial for 2 seconds, or enable Phantom Power in Wave Link. The LED confirms when it’s on. If you’re using a dynamic mic, keep Phantom Power off.</value>
+  </data>
+  <data name="OnboardingWizard_WaveXlrMk2_PhantomPower_Description" xml:space="preserve">
+    <value>Enable phantom power in the Wave Link app when using a condenser microphone. The 48V LED will light up to confirm it’s active. It is recommended to turn off phantom power when using a dynamic microphone.</value>
+  </data>
+  <data name="OnboardingWizard_BetterMaker_Description" xml:space="preserve">
+    <value>Get rich, tape-inspired sound in seconds. Voice Tune blends compression and harmonics to enhance any signal.</value>
+  </data>
+  <data name="OnboardingWizard_StreamDeckControl_Title" xml:space="preserve">
+    <value>Control Wave Link with Stream Deck</value>
+  </data>
+  <data name="OnboardingWizard_StreamDeckControl_Description1" xml:space="preserve">
+    <value>Manage your audio on the fly with a key press or dial turn from your Stream Deck.</value>
+  </data>
+  <data name="OnboardingWizard_StreamDeckControl_Description2" xml:space="preserve">
+    <value>Install the official Wave Link plugin to control your mic and audio channels through {0} — add apps, adjust levels, mute sources, toggle effects, and monitor audio in real time with keys and dials that update as you mix.</value>
+  </data>
+  <data name="OnboardingWizard_MicrophonePosition_Description" xml:space="preserve">
+    <value>For the best sound:</value>
+  </data>
+  <data name="DialFunction_OutputVolume" xml:space="preserve">
+    <value>Output volume</value>
+  </data>
+  <data name="DialFunction_InputGain" xml:space="preserve">
+    <value>Input gain</value>
+  </data>
+  <data name="Notification_NewPluginsFound_Title" xml:space="preserve">
+    <value>New plugins found</value>
+  </data>
+  <data name="Notification_NewPluginsFound_Desc" xml:space="preserve">
+    <value>{0} new plugin(s) have been found</value>
+  </data>
+  <data name="ElgatoDevice_LowCutOnOff_Wave1_Wave3" xml:space="preserve">
+    <value>Enhanced lowcut</value>
+  </data>
+  <data name="ElgatoDevicePage_Effects_NoneAvailable" xml:space="preserve">
+    <value>No audio effects available</value>
+  </data>
+  <data name="OnboardingWizard_InputGainFeedback_TooLow" xml:space="preserve">
+    <value>Your mic is too quiet — try increasing the gain.</value>
+  </data>
+  <data name="OnboardingWizard_InputGainFeedback_TooHigh" xml:space="preserve">
+    <value>Your mic is too loud — try decreasing the gain.</value>
+  </data>
+  <data name="OnboardingWizard_InputGainFeedback_Good" xml:space="preserve">
+    <value>Great! Your input gain level is right where it should be.</value>
+  </data>
+  <data name="OnboardingWizard_Monitoring_PlugHeadphones" xml:space="preserve">
+    <value>Before you start, connect your headphones.</value>
+  </data>
+  <data name="OnboardingWizard_Monitoring_ZeroLatency" xml:space="preserve">
+    <value>Hear yourself as you speak. Real-time monitoring plays your voice back through your headphones with zero delay, so you always sound in control.</value>
+  </data>
+  <data name="OnboardingWizard_AudioSample_Header" xml:space="preserve">
+    <value>PC audio sample</value>
+  </data>
+  <data name="OnboardingWizard_AudioSample_Subtext" xml:space="preserve">
+    <value>Click the speaker icon to hear a simulated PC sound alongside your mic.</value>
+  </data>
+  <data name="OnboardingWizard_Monitoring_DragSlider" xml:space="preserve">
+    <value>While speaking into your mic, use the slider to balance between your voice and PC audio.</value>
+  </data>
+  <data name="Notification_NewPluginsFound_TeachingTip_Title" xml:space="preserve">
+    <value>Following plugins have been found:</value>
+  </data>
+  <data name="Notification_NewPluginsFound_TeachingTip_SubTitle" xml:space="preserve">
+    <value>and more...</value>
+  </data>
+  <data name="Notification_BrokenPluginsFound_Title" xml:space="preserve">
+    <value>Broken plugins found</value>
+  </data>
+  <data name="Notification_BrokenPluginsFound_Desc" xml:space="preserve">
+    <value>{0} broken plugin(s) have been found</value>
+  </data>
+  <data name="Notification_BrokenPluginsFound_TeachingTip_Title" xml:space="preserve">
+    <value>Following plugins are broken:</value>
+  </data>
+  <data name="Notification_BrokenPluginsFound_TeachingTip_SubTitle" xml:space="preserve">
+    <value>and more...</value>
+  </data>
+  <data name="Notification_IncompatiblePluginsFound_Title" xml:space="preserve">
+    <value>Incompatible plugins found</value>
+  </data>
+  <data name="Notification_IncompatiblePluginsFound_Desc" xml:space="preserve">
+    <value>{0} incompatible plugin(s) have been found</value>
+  </data>
+  <data name="Notification_IncompatiblePluginsFound_TeachingTip_Title" xml:space="preserve">
+    <value>Following plugins are incompatible:</value>
+  </data>
+  <data name="Notification_IncompatiblePluginsFound_TeachingTip_SubTitle" xml:space="preserve">
+    <value>and more...</value>
+  </data>
+  <data name="Notification_DeletedPluginsFound_Title" xml:space="preserve">
+    <value>Deleted plugins found</value>
+  </data>
+  <data name="Notification_DeletedPluginsFound_Desc" xml:space="preserve">
+    <value>{0} deleted plugin(s) have been found</value>
+  </data>
+  <data name="Notification_DeletedPluginsFound_TeachingTip_Title" xml:space="preserve">
+    <value>Following plugins have been deleted:</value>
+  </data>
+  <data name="Notification_DeletedPluginsFound_TeachingTip_SubTitle" xml:space="preserve">
+    <value>and more...</value>
+  </data>
+  <data name="Notification_TeachingTip_ShowButton" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="OnboardingWizard_MicrophonePosition_Direction_Title_NonXLR" xml:space="preserve">
+    <value>Speak into the side of {0}</value>
+  </data>
+  <data name="OnboardingWizard_MicrophonePosition_Direction_Decription_WaveNeo" xml:space="preserve">
+    <value>Make sure the capacitive mute button is facing you.</value>
+  </data>
+  <data name="OnboardingWizard_MicrophonePosition_Distance_Title" xml:space="preserve">
+    <value>Keep the right distance</value>
+  </data>
+  <data name="OnboardingWizard_MicrophonePosition_Distance_Description" xml:space="preserve">
+    <value>Use your hand to measure — thumb at your mouth, pinky pointing toward the mic.</value>
+  </data>
+  <data name="OnboardingWizard_MicrophonePosition_Direction_Title_XLR" xml:space="preserve">
+    <value>Speak into the top of Wave DX</value>
+  </data>
+  <data name="OnboardingWizard_MicrophonePosition_Direction_Description_XLR" xml:space="preserve">
+    <value>Aim the end of the mic toward your mouth, not the side.</value>
+  </data>
+  <data name="OnboardingWizard_MicrophonePosition_Direction_Decription_Wave13" xml:space="preserve">
+    <value>Make sure the Elgato logo is facing you.</value>
+  </data>
+  <data name="Notification_MarketplaceDownloadStarted_Title" xml:space="preserve">
+    <value>Download started</value>
+  </data>
+  <data name="Notification_MarketplaceDownloadStarted_Desc" xml:space="preserve">
+    <value>{0} is now downloading</value>
+  </data>
+  <data name="Notification_MarketplaceDownloadCompleted_Title" xml:space="preserve">
+    <value>Download completed</value>
+  </data>
+  <data name="Notification_MarketplaceDownloadCompleted_Desc" xml:space="preserve">
+    <value>{0} has been downloaded</value>
+  </data>
+  <data name="Notification_MarketplaceDownloadFailed_Title" xml:space="preserve">
+    <value>Download failed</value>
+  </data>
+  <data name="Notification_MarketplaceDownloadFailed_Desc" xml:space="preserve">
+    <value>Failed to download {0}, please try again</value>
+  </data>
+  <data name="OnboardingWizard_ControlDial_Wave3_Press" xml:space="preserve">
+    <value>Press to switch between functions</value>
+  </data>
+  <data name="OnboardingWizard_ControlDial_Wave3_TurnRight" xml:space="preserve">
+    <value>Turn right to increase</value>
+  </data>
+  <data name="OnboardingWizard_ControlDial_Wave3_TurnLeft" xml:space="preserve">
+    <value>Turn left to decrease</value>
+  </data>
+  <data name="OnboardingWizard_ControlDial_XLR_Press" xml:space="preserve">
+    <value>Press to cycle through mic settings</value>
+  </data>
+  <data name="OnboardingWizard_ControlDial_XLR_TurnLeftRight" xml:space="preserve">
+    <value>Turn right to increase, left to decrease</value>
+  </data>
+  <data name="OnboardingWizard_ControlDial_XLR_PhantomPower" xml:space="preserve">
+    <value>Press and hold for 2 seconds to toggle phantom power</value>
+  </data>
+  <data name="OnboardingWizard_WaveXlrMk1_DirectMonitorVolume_Description" xml:space="preserve">
+    <value>Mic/PC mix lets you control what you hear in your headphones — blending your voice (with zero-latency monitoring) and audio from your PC.</value>
+  </data>
+  <data name="ElgatoDevice_VoiceFocus_TeachingTip_Subtitle" xml:space="preserve">
+    <value>Cleans up your audio using AI-powered noise and echo reduction.</value>
+  </data>
+</root>
