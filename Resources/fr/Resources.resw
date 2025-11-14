@@ -60,7 +60,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="NavigationBar_Mixes" xml:space="preserve">
-    <value>Mixe</value>
+    <value>Mixages</value>
   </data>
   <data name="OnboardingWizard_SetupDevice_Title" xml:space="preserve">
     <value>Set up your {0}</value>
@@ -69,10 +69,10 @@
     <value>Let’s walk through a quick setup to make sure everything works the way you want — and sounds just right.</value>
   </data>
   <data name="OnboardingWizard_GetStarted" xml:space="preserve">
-    <value>Erste Schritte</value>
+    <value>Commencer</value>
   </data>
   <data name="OnboardingWizard_Skip" xml:space="preserve">
-    <value>Überspringen</value>
+    <value>Passer</value>
   </data>
   <data name="OnboardingWizard_ExploreDevice_Title" xml:space="preserve">
     <value>Explore your device</value>
@@ -113,7 +113,7 @@ Use the slider to adjust your input gain until you’re in the safe range — no
 Tweak settings anytime in Wave Link.</value>
   </data>
   <data name="OnboardingWizard_Finish" xml:space="preserve">
-    <value>Fertig</value>
+    <value>Terminé</value>
   </data>
   <data name="OnboardingWizard_Restart" xml:space="preserve">
     <value>Restart setup</value>
@@ -143,13 +143,13 @@ Tweak settings anytime in Wave Link.</value>
     <value>Input &amp; monitoring</value>
   </data>
   <data name="ElgatoDevicePage_TabViewHeader_Settings" xml:space="preserve">
-    <value>Einstellungen</value>
+    <value>Paramètres</value>
   </data>
   <data name="ElgatoDevicePage_StartWizardText" xml:space="preserve">
     <value>Start device tour</value>
   </data>
   <data name="ElgatoDeviceProperties_Header_Input" xml:space="preserve">
-    <value>Eingang</value>
+    <value>Entrée</value>
   </data>
   <data name="ElgatoDeviceProperties_InputGain" xml:space="preserve">
     <value>Input gain</value>
@@ -164,7 +164,7 @@ Tweak settings anytime in Wave Link.</value>
     <value>Output volume</value>
   </data>
   <data name="ElgatoDevice_Mute" xml:space="preserve">
-    <value>Stumm</value>
+    <value>Muet</value>
   </data>
   <data name="ElgatoDevice_LowCutOnOff_Title" xml:space="preserve">
     <value>Lowcut filter</value>
@@ -194,7 +194,7 @@ Tweak settings anytime in Wave Link.</value>
     <value>Gain Lock</value>
   </data>
   <data name="ElgatoDevicePage_TabViewHeader_Effects" xml:space="preserve">
-    <value>Effekte</value>
+    <value>Effets</value>
   </data>
   <data name="ElgatoDeviceProperties_AudioEnhancements" xml:space="preserve">
     <value>Audio enhancements</value>
@@ -206,10 +206,10 @@ Tweak settings anytime in Wave Link.</value>
     <value>Reduces low-end noise below 80 Hz, which is great for cleanup but may thin out deep voices.</value>
   </data>
   <data name="ElgatoDeviceProperties_Header_General" xml:space="preserve">
-    <value>Allgemein</value>
+    <value>Général</value>
   </data>
   <data name="ElgatoDeviceProperties_Header_Color" xml:space="preserve">
-    <value>Farbe</value>
+    <value>Couleur</value>
   </data>
   <data name="ElgatoDevice_PhantomPower_Title" xml:space="preserve">
     <value>48V phantom power</value>
@@ -227,7 +227,7 @@ Tweak settings anytime in Wave Link.</value>
     <value>LED brightness</value>
   </data>
   <data name="ElgatoDevice_Firmware" xml:space="preserve">
-    <value>Firmware</value>
+    <value>Micrologiciel</value>
   </data>
   <data name="SampleRate_Hz48" xml:space="preserve">
     <value>48 kHz</value>
@@ -266,7 +266,7 @@ Tweak settings anytime in Wave Link.</value>
     <value>Reduces ambient noise without affecting your voice.</value>
   </data>
   <data name="AddAudioEffect" xml:space="preserve">
-    <value>Effekt hinzufügen</value>
+    <value>Ajouter un effet</value>
   </data>
   <data name="MiscVendors" xml:space="preserve">
     <value>Misc. vendors</value>
@@ -323,7 +323,7 @@ Tweak settings anytime in Wave Link.</value>
     <value>Add microphone to this mix</value>
   </data>
   <data name="ElgatoDevicePage_Effects_AddLegacyDeviceToMix_Go" xml:space="preserve">
-    <value>Los</value>
+    <value>Aller</value>
   </data>
   <data name="NavigationBar_YourDevices" xml:space="preserve">
     <value>Your devices</value>
@@ -362,7 +362,7 @@ Tweak settings anytime in Wave Link.</value>
     <value>Unavailable</value>
   </data>
   <data name="MixingTable_Header" xml:space="preserve">
-    <value>Mixe</value>
+    <value>Mixages</value>
   </data>
   <data name="MixingTable_Edit_Output" xml:space="preserve">
     <value>Edit output</value>
@@ -398,7 +398,7 @@ Tweak settings anytime in Wave Link.</value>
     <value>Remove channel</value>
   </data>
   <data name="MixingTable_CloseWindow_Button" xml:space="preserve">
-    <value>Fenster schließen</value>
+    <value>Fermer la fenêtre</value>
   </data>
   <data name="MixingTable_AddOutput_Button" xml:space="preserve">
     <value>Add output</value>
@@ -452,7 +452,7 @@ Tweak settings anytime in Wave Link.</value>
     <value>Aux 2 icon</value>
   </data>
   <data name="Settings_AudioEffectsCategory" xml:space="preserve">
-    <value>Effekte</value>
+    <value>Effets</value>
   </data>
   <data name="Settings_AudioEffects_Title" xml:space="preserve">
     <value>Audio effects</value>
@@ -662,7 +662,7 @@ Your ideal level depends on how you speak, how far you are from the mic, and the
     <value>and more...</value>
   </data>
   <data name="Notification_TeachingTip_ShowButton" xml:space="preserve">
-    <value>Anzeigen</value>
+    <value>Afficher</value>
   </data>
   <data name="OnboardingWizard_MicrophonePosition_Direction_Title_NonXLR" xml:space="preserve">
     <value>Speak into the side of {0}</value>
