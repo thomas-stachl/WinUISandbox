@@ -1,0 +1,14 @@
+{
+    "source": "Resources/en/Resources.resw",
+    "targets": [
+        {
+            "code": "de",
+            "file":"Resources/de/Resources.resw"
+        
+        },
+        {
+            "code": "fr",
+            "file": "Resources/fr/Resources.resw"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+name: Copilot Automation Workflow
+
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  copilot-automation:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.assignees[*].login, 'copilot')
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Create branch from issue
+        id: create_branch
+        run: |
+          BRANCH_NAME="copilot/issue-${{ github.event.issue.number }}-$(echo ${{ github.event.issue.title }} | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | cut -c1-30)"
+          git checkout -b $BRANCH_NAME
+          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Install dependencies
+        run:  npm install @elgato/translate -g
+        
+      - name: Run Node.js tool
+        run: |
+          # Replace with your actual Node.js tool command
+          translate -k ${{ secrets.deepl_auth_key }}
+        
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: generate files for issue #${{ github.event.issue.number }}"
+          fi
+        
+      - name: Push branch
+        run: |
+          git push origin ${{ steps.create_branch.outputs.branch_name }}
+        
+      - name: Create Pull Request
+        uses: actions/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: generate files for issue #${{ github.event.issue.number }}"
+          title: "Resolve: ${{ github.event.issue.title }}"
+          body: "Closes #${{ github.event.issue.number }}"
+          branch: ${{ steps.create_branch.outputs.branch_name }}
+          base: main
