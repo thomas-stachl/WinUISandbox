@@ -31,7 +31,7 @@ jobs:
       - name: Run Node.js tool
         run: |
           # Replace with your actual Node.js tool command
-          translate -k ${{ secrets.deepl_auth_key }}
+          translate -k ${{ secrets.DEEPL_API_KEY }}
         
       - name: Commit generated files
         run: |
