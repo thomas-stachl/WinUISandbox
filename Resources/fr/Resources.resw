@@ -60,37 +60,37 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="NavigationBar_Mixes" xml:space="preserve">
-    <value>Mischungen</value>
+    <value>Mixages</value>
   </data>
   <data name="OnboardingWizard_SetupDevice_Title" xml:space="preserve">
-    <value>{0} einrichten</value>
+    <value>Configurer votre {0}</value>
   </data>
   <data name="OnboardingWizard_SetupDevice_Description" xml:space="preserve">
     <value>Let’s walk through a quick setup to make sure everything works the way you want — and sounds just right.</value>
   </data>
   <data name="OnboardingWizard_GetStarted" xml:space="preserve">
-    <value>Erste Schritte</value>
+    <value>Commencer</value>
   </data>
   <data name="OnboardingWizard_Skip" xml:space="preserve">
-    <value>Überspringen</value>
+    <value>Passer</value>
   </data>
   <data name="OnboardingWizard_ExploreDevice_Title" xml:space="preserve">
-    <value>Entdecken Sie Ihr Gerät</value>
+    <value>Explorez votre appareil</value>
   </data>
   <data name="OnboardingWizard_MuteMic_Title" xml:space="preserve">
-    <value>Mikrofon sofort stummschalten</value>
+    <value>Couper instantanément votre micro</value>
   </data>
   <data name="OnboardingWizard_MuteMic_Description" xml:space="preserve">
-    <value>Müssen Sie sich kurz entfernen oder während eines Streams oder Anrufs schnell stummschalten? Tippen Sie einfach auf die LED — rot bedeutet stummgeschaltet.</value>
+    <value>Besoin de vous éloigner ou de vous mettre en sourdine rapidement pendant un stream ou un appel ? Appuyez simplement sur la LED — rouge signifie que vous êtes en sourdine.</value>
   </data>
   <data name="OnboardingWizard_ConnectHeadphones_Title" xml:space="preserve">
-    <value>Kopfhörer anschließen</value>
+    <value>Connectez votre casque</value>
   </data>
   <data name="OnboardingWizard_ConnectHeadphones_Description" xml:space="preserve">
-    <value>Schließen Sie Ihre Kopfhörer an den 3,5-mm-Anschluss auf der Rückseite Ihres {0} an und verwenden Sie dann das Audio-Beispiel unten, um Ihre Ausgangslautstärke fein abzustimmen.</value>
+    <value>Branchez votre casque dans le port 3,5 mm à l'arrière de votre {0}, puis utilisez l'échantillon audio ci-dessous pour affiner votre volume de sortie.</value>
   </data>
   <data name="OnboardingWizard_MicrophonePosition_Title" xml:space="preserve">
-    <value>Mikrofon positionieren</value>
+    <value>Positionnez votre micro</value>
   </data>
   <data name="OnboardingWizard_Gain_Title" xml:space="preserve">
     <value>Let’s set your gain</value>
@@ -103,128 +103,128 @@ Aim to keep your voice mostly in the green, near the target zone (around –12 d
 Use the slider to adjust your input gain until you’re in the safe range — not too quiet, not too loud.</value>
   </data>
   <data name="OnboardingWizard_Monitoring_Title" xml:space="preserve">
-    <value>Echtzeit-Sprachüberwachung ausprobieren</value>
+    <value>Essayez le monitoring vocal en temps réel</value>
   </data>
   <data name="OnboardingWizard_Finish_Title" xml:space="preserve">
-    <value>{0} ist bereit!</value>
+    <value>{0} est prêt !</value>
   </data>
   <data name="OnboardingWizard_Finish_Description" xml:space="preserve">
-    <value>Ihr Mikrofon ist vollständig eingerichtet und optimiert.
-Passen Sie die Einstellungen jederzeit in Wave Link an.</value>
+    <value>Votre micro est entièrement configuré et optimisé.
+Ajustez les paramètres à tout moment dans Wave Link.</value>
   </data>
   <data name="OnboardingWizard_Finish" xml:space="preserve">
-    <value>Fertig</value>
+    <value>Terminé</value>
   </data>
   <data name="OnboardingWizard_Restart" xml:space="preserve">
-    <value>Einrichtung neu starten</value>
+    <value>Redémarrer la configuration</value>
   </data>
   <data name="OnboardingWizard_ConnectMicrophone_Title" xml:space="preserve">
-    <value>Mikrofon anschließen</value>
+    <value>Connectez votre microphone</value>
   </data>
   <data name="OnboardingWizard_ConnectMicrophone_Description" xml:space="preserve">
-    <value>{0} ist bereit — schließen Sie einfach Ihr Mikrofon an, um zu beginnen.</value>
+    <value>{0} est prêt — branchez simplement votre micro pour commencer.</value>
   </data>
   <data name="OnboardingWizard_OutputVolume_Description" xml:space="preserve">
-    <value>Schließen Sie Kopfhörer an die Rückseite Ihres {0} an, um Audio in Echtzeit zu überwachen. Verwenden Sie das Drehrad, um die Ausgangslautstärke auf ein angenehmes Niveau einzustellen.</value>
+    <value>Branchez un casque à l'arrière de votre {0} pour surveiller l'audio en temps réel. Utilisez le cadran pour ajuster le volume de sortie à un niveau confortable.</value>
   </data>
   <data name="LedDirection_LeftToRight" xml:space="preserve">
-    <value>Von links nach rechts (Standard)</value>
+    <value>De gauche à droite (par défaut)</value>
   </data>
   <data name="LedDirection_RightToLeft" xml:space="preserve">
-    <value>Von rechts nach links (umgekehrte Montage)</value>
+    <value>De droite à gauche (montage inversé)</value>
   </data>
   <data name="XlrMicType_Condenser" xml:space="preserve">
-    <value>Kondensatormikrofon</value>
+    <value>Micro à condensateur</value>
   </data>
   <data name="XlrMicType_Dynamic" xml:space="preserve">
-    <value>Dynamisches Mikrofon</value>
+    <value>Micro dynamique</value>
   </data>
   <data name="ElgatoDevicePage_TabViewHeader_InputMonitoring" xml:space="preserve">
-    <value>Eingang &amp; Überwachung</value>
+    <value>Entrée et monitoring</value>
   </data>
   <data name="ElgatoDevicePage_TabViewHeader_Settings" xml:space="preserve">
-    <value>Einstellungen</value>
+    <value>Paramètres</value>
   </data>
   <data name="ElgatoDevicePage_StartWizardText" xml:space="preserve">
-    <value>Gerätetour starten</value>
+    <value>Démarrer la visite de l'appareil</value>
   </data>
   <data name="ElgatoDeviceProperties_Header_Input" xml:space="preserve">
-    <value>Eingang</value>
+    <value>Entrée</value>
   </data>
   <data name="ElgatoDeviceProperties_InputGain" xml:space="preserve">
-    <value>Eingangsverstärkung</value>
+    <value>Gain d'entrée</value>
   </data>
   <data name="WaveXLR_RecommendedGain" xml:space="preserve">
-    <value>Empfohlene Verstärkung</value>
+    <value>Gain recommandé</value>
   </data>
   <data name="ElgatoDeviceProperties_Header_Monitoring" xml:space="preserve">
-    <value>Überwachung</value>
+    <value>Monitoring</value>
   </data>
   <data name="ElgatoDeviceProperties_OutputVolume" xml:space="preserve">
-    <value>Ausgangslautstärke</value>
+    <value>Volume de sortie</value>
   </data>
   <data name="ElgatoDevice_Mute" xml:space="preserve">
-    <value>Stummschalten</value>
+    <value>Muet</value>
   </data>
   <data name="ElgatoDevice_LowCutOnOff_Title" xml:space="preserve">
-    <value>Tiefenfilter</value>
+    <value>Filtre coupe-bas</value>
   </data>
   <data name="ElgatoDevice_LowCutOnOff_Description" xml:space="preserve">
-    <value>Reduziert tieffrequente Geräusche wie Tippen und Rumpeln. Ausschalten, wenn Sie einen tieferen Stimmklang wünschen.</value>
+    <value>Coupe les bruits graves comme la frappe et le grondement. Désactivez si vous souhaitez un son vocal plus profond.</value>
   </data>
   <data name="ElgatoDevice_Clipguard_Description" xml:space="preserve">
-    <value>Dämpft laute Ausbrüche wie begeisterte Reaktionen, um Audio sauber und verzerrungsfrei zu halten.</value>
+    <value>Atténue les pics sonores comme les réactions enthousiastes pour garder l'audio propre et sans distorsion.</value>
   </data>
   <data name="ElgatoDevice_ClipguardIndicator_Description" xml:space="preserve">
-    <value>Zeigt eine Echtzeitwarnung an, wenn Clipguard Verzerrungen verhindert.</value>
+    <value>Affiche une alerte en temps réel lorsque Clipguard empêche la distorsion.</value>
   </data>
   <data name="ElgatoDevice_GainLock_Description" xml:space="preserve">
-    <value>Verhindert, dass andere Apps Ihre Mikrofonverstärkung ändern.</value>
+    <value>Empêche d'autres applications de modifier le gain de votre micro.</value>
   </data>
   <data name="ElgatoDevice_LowImpedanceMode_Title" xml:space="preserve">
-    <value>Niedriger Impedanzmodus</value>
+    <value>Mode basse impédance</value>
   </data>
   <data name="ElgatoDevice_Clipguard_Title" xml:space="preserve">
-    <value>Clipguard</value>
+    <value>Protection contre l'écrêtage</value>
   </data>
   <data name="ElgatoDevice_ClipguardIndicator_Title" xml:space="preserve">
-    <value>Clipguard-Anzeige anzeigen</value>
+    <value>Afficher l'indicateur Clipguard</value>
   </data>
   <data name="ElgatoDevice_GainLock_Title" xml:space="preserve">
-    <value>Verstärkungssperre</value>
+    <value>Verrouillage du gain</value>
   </data>
   <data name="ElgatoDevicePage_TabViewHeader_Effects" xml:space="preserve">
-    <value>Effekte</value>
+    <value>Effets</value>
   </data>
   <data name="ElgatoDeviceProperties_AudioEnhancements" xml:space="preserve">
-    <value>Audioverbesserungen</value>
+    <value>Améliorations audio</value>
   </data>
   <data name="ElgatoDevice_LowcutXLR_Title" xml:space="preserve">
-    <value>Tiefenfilter</value>
+    <value>Filtre coupe-bas</value>
   </data>
   <data name="ElgatoDevice_LowcutXLR_Description" xml:space="preserve">
     <value>Reduces low-end noise below 80 Hz, which is great for cleanup but may thin out deep voices.</value>
   </data>
   <data name="ElgatoDeviceProperties_Header_General" xml:space="preserve">
-    <value>Allgemein</value>
+    <value>Général</value>
   </data>
   <data name="ElgatoDeviceProperties_Header_Color" xml:space="preserve">
-    <value>Farbe</value>
+    <value>Couleur</value>
   </data>
   <data name="ElgatoDevice_PhantomPower_Title" xml:space="preserve">
-    <value>48V Phantomspeisung</value>
+    <value>Alimentation fantôme 48V</value>
   </data>
   <data name="ElgatoDevice_PhantomPower_Description" xml:space="preserve">
-    <value>Einschalten für Kondensatormikrofone, ausschalten für dynamische Mikrofone.</value>
+    <value>Activez pour les micros à condensateur, désactivez pour les micros dynamiques.</value>
   </data>
   <data name="ElgatoDevice_DialFunction" xml:space="preserve">
-    <value>Drehradfunktion</value>
+    <value>Fonction du cadran</value>
   </data>
   <data name="ElgatoDevice_LedDirection" xml:space="preserve">
-    <value>LED-Richtung</value>
+    <value>Direction LED</value>
   </data>
   <data name="ElgatoDevice_LedBrightness" xml:space="preserve">
-    <value>LED-Helligkeit</value>
+    <value>Luminosité LED</value>
   </data>
   <data name="ElgatoDevice_Firmware" xml:space="preserve">
     <value>Firmware</value>
@@ -236,262 +236,262 @@ Passen Sie die Einstellungen jederzeit in Wave Link an.</value>
     <value>96 kHz</value>
   </data>
   <data name="ElgatoDevice_SampleRate" xml:space="preserve">
-    <value>Abtastrate</value>
+    <value>Taux d'échantillonnage</value>
   </data>
   <data name="ElgatoDevice_StartOnboardingWizard" xml:space="preserve">
-    <value>Einrichtungstour starten</value>
+    <value>Démarrer la visite de configuration</value>
   </data>
   <data name="ElgatoDevice_ColorGeneral" xml:space="preserve">
-    <value>Allgemeine Farbe</value>
+    <value>Couleur générale</value>
   </data>
   <data name="ElgatoDevice_ColorMute" xml:space="preserve">
-    <value>Stummschaltungsfarbe</value>
+    <value>Couleur sourdine</value>
   </data>
   <data name="ElgatoDevice_ColorGainReduction" xml:space="preserve">
-    <value>Verstärkungsreduktionsfarbe</value>
+    <value>Couleur réduction de gain</value>
   </data>
   <data name="ElgatoDeviceProperties_Header_MicEnhancements" xml:space="preserve">
-    <value>Mikrofonverbesserungen</value>
+    <value>Améliorations du micro</value>
   </data>
   <data name="ElgatoDevice_Expander_Title" xml:space="preserve">
-    <value>Expander</value>
+    <value>Expandeur</value>
   </data>
   <data name="ElgatoDevice_Equalizer_Title" xml:space="preserve">
-    <value>Equalizer</value>
+    <value>Égaliseur</value>
   </data>
   <data name="ElgatoDevice_BetterMaker_Title" xml:space="preserve">
-    <value>Stimmoptimierung</value>
+    <value>Optimisation vocale</value>
   </data>
   <data name="ElgatoDevice_Expander_Description" xml:space="preserve">
-    <value>Reduziert Umgebungsgeräusche, ohne Ihre Stimme zu beeinträchtigen.</value>
+    <value>Réduit le bruit ambiant sans affecter votre voix.</value>
   </data>
   <data name="AddAudioEffect" xml:space="preserve">
-    <value>Effekt hinzufügen</value>
+    <value>Ajouter un effet</value>
   </data>
   <data name="MiscVendors" xml:space="preserve">
-    <value>Verschiedene Anbieter</value>
+    <value>Divers fournisseurs</value>
   </data>
   <data name="MiscCategories" xml:space="preserve">
-    <value>Verschiedene Kategorien</value>
+    <value>Catégories diverses</value>
   </data>
   <data name="ElgatoDeviceProperties_Header_AudioEffects" xml:space="preserve">
-    <value>Audioeffekte</value>
+    <value>Effets audio</value>
   </data>
   <data name="ElgatoDevice_VoiceFocus_Title" xml:space="preserve">
-    <value>Stimmfokus</value>
+    <value>Focus vocal</value>
   </data>
   <data name="ElgatoDevice_AudioEffectValue_Weak" xml:space="preserve">
-    <value>Schwach</value>
+    <value>Faible</value>
   </data>
   <data name="ElgatoDevice_AudioEffectValue_Strong" xml:space="preserve">
-    <value>Stark</value>
+    <value>Fort</value>
   </data>
   <data name="ElgatoDevice_SampleRecorder_Title" xml:space="preserve">
-    <value>Soundcheck</value>
+    <value>Test sonore</value>
   </data>
   <data name="MixingTable_Header_MixSettings" xml:space="preserve">
-    <value>Mischungseinstellungen</value>
+    <value>Paramètres de mixage</value>
   </data>
   <data name="MixingTable_Header_AssignedOutputs_Title" xml:space="preserve">
-    <value>Ihre zugewiesenen Ausgänge</value>
+    <value>Vos sorties assignées</value>
   </data>
   <data name="MixingTable_Header_MixSettings_SliderVisibility" xml:space="preserve">
-    <value>Lautstärkeregler immer anzeigen</value>
+    <value>Toujours afficher les curseurs de volume</value>
   </data>
   <data name="MixingTable_Header_MixSettings_Maximiser" xml:space="preserve">
-    <value>Maximierer</value>
+    <value>Maximiseur</value>
   </data>
   <data name="MainOutputDevice_Title" xml:space="preserve">
-    <value>Hauptausgang</value>
+    <value>Sortie principale</value>
   </data>
   <data name="SelfMonitoring_NonLinear" xml:space="preserve">
-    <value>Mikrofon/PC-Mix (Audio mischen)</value>
+    <value>Mix micro/PC (mélange audio)</value>
   </data>
   <data name="SelfMonitoring_Linear" xml:space="preserve">
-    <value>Linearer Mikrofon-Mix (Mikrofonpegel einstellen)</value>
+    <value>Mix micro linéaire (définir le niveau du micro)</value>
   </data>
   <data name="SelfMonitoring_IncludeVST" xml:space="preserve">
-    <value>VST-Effekte einbeziehen (kann Latenz hinzufügen)</value>
+    <value>Inclure les effets VST (peut ajouter de la latence)</value>
   </data>
   <data name="MixingTable_Element_Muted" xml:space="preserve">
-    <value>Stummgeschaltet</value>
+    <value>En sourdine</value>
   </data>
   <data name="ElgatoDevicePage_Effects_AddLegacyDeviceToMix_Header" xml:space="preserve">
     <value>You can add audio effects after you’ve added your mic to a mix.</value>
   </data>
   <data name="ElgatoDevicePage_Effects_AddLegacyDeviceToMix_AddToThis" xml:space="preserve">
-    <value>Mikrofon zu dieser Mischung hinzufügen</value>
+    <value>Ajouter un microphone à ce mixage</value>
   </data>
   <data name="ElgatoDevicePage_Effects_AddLegacyDeviceToMix_Go" xml:space="preserve">
-    <value>Los</value>
+    <value>Aller</value>
   </data>
   <data name="NavigationBar_YourDevices" xml:space="preserve">
-    <value>Ihre Geräte</value>
+    <value>Vos appareils</value>
   </data>
   <data name="NavigationBar_NoElgatoDeviceConnected" xml:space="preserve">
-    <value>Gerät verbinden</value>
+    <value>Connecter un appareil</value>
   </data>
   <data name="ElgatoDevice_HighPowerMode_Title" xml:space="preserve">
-    <value>Hochleistungsmodus</value>
+    <value>Mode haute puissance</value>
   </data>
   <data name="InputChannel_ElgatoDeviceHardwareInputMute_Title" xml:space="preserve">
-    <value>Stummgeschaltet</value>
+    <value>En sourdine</value>
   </data>
   <data name="ElgatoDevice_LowImpedanceMode_Description" xml:space="preserve">
-    <value>Optimiert die Audioleistung für Kopfhörer mit niedriger Impedanz.</value>
+    <value>Optimise les performances audio pour les casques à faible impédance.</value>
   </data>
   <data name="ElgatoDevice_HighPowerMode_Description" xml:space="preserve">
-    <value>Optimiert Lautstärke und Klarheit für Kopfhörer mit hoher Impedanz.</value>
+    <value>Optimise le volume et la clarté pour les casques à haute impédance.</value>
   </data>
   <data name="ElgatoDevice_SampleRecorder_Description" xml:space="preserve">
-    <value>Nehmen Sie Ihre Stimme auf, um Effekte zu testen und Ihr Audio anzupassen, bevor Sie live gehen.</value>
+    <value>Enregistrez votre voix pour tester les effets et ajuster votre audio avant de passer en direct.</value>
   </data>
   <data name="ElgatoDevice_Compressor_Description" xml:space="preserve">
-    <value>Glättet Höhen und Tiefen für einen konsistenten, polierten Klang.</value>
+    <value>Lisse les hauts et les bas pour un son cohérent et poli.</value>
   </data>
   <data name="ElgatoDevice_Compressor_Title" xml:space="preserve">
-    <value>Kompressor</value>
+    <value>Compresseur</value>
   </data>
   <data name="ElgatoDevice_Equalizer_Description" xml:space="preserve">
-    <value>Verstärkt Tiefen für Wärme, hebt Höhen für Klarheit und schneidet Trübheit für saubereren Klang.</value>
+    <value>Améliore les graves pour la chaleur, élève les aigus pour la clarté et élimine le trouble pour un son plus propre.</value>
   </data>
   <data name="ElgatoDevice_BetterMaker_Description" xml:space="preserve">
-    <value>Fügt analoge Kompression und sanfte harmonische Wärme hinzu.</value>
+    <value>Ajoute une compression de style analogique et une douce chaleur harmonique.</value>
   </data>
   <data name="ElgatoDevice_Not_Present" xml:space="preserve">
-    <value>Nicht verfügbar</value>
+    <value>Indisponible</value>
   </data>
   <data name="MixingTable_Header" xml:space="preserve">
-    <value>Mischungen</value>
+    <value>Mixages</value>
   </data>
   <data name="MixingTable_Edit_Output" xml:space="preserve">
-    <value>Ausgang bearbeiten</value>
+    <value>Modifier la sortie</value>
   </data>
   <data name="MixingTable_Outputs_Single" xml:space="preserve">
-    <value>1 Ausgang</value>
+    <value>1 sortie</value>
   </data>
   <data name="MixingTable_Outputs_Multiple" xml:space="preserve">
-    <value>{0} Ausgänge</value>
+    <value>{0} sorties</value>
   </data>
   <data name="MixingTable_Header_Apps" xml:space="preserve">
-    <value>Apps</value>
+    <value>Applications</value>
   </data>
   <data name="MixingTable_Header_AssignedApps" xml:space="preserve">
-    <value>App von anderem Kanal übertragen</value>
+    <value>Transférer l'application depuis un autre canal</value>
   </data>
   <data name="MixingTable_All_Assigned" xml:space="preserve">
-    <value>Alle Apps sind Kanälen zugewiesen</value>
+    <value>Toutes les applications sont assignées aux canaux</value>
   </data>
   <data name="MixingTable_Header_AudioEffects" xml:space="preserve">
-    <value>Audioeffekte</value>
+    <value>Effets audio</value>
   </data>
   <data name="MixingTable_Header_InputDevices" xml:space="preserve">
-    <value>Eingabegeräte</value>
+    <value>Appareils d'entrée</value>
   </data>
   <data name="MixingTable_AddChannel_Button" xml:space="preserve">
-    <value>Kanal erstellen</value>
+    <value>Créer un canal</value>
   </data>
   <data name="MixingTable_AddApp_Button" xml:space="preserve">
-    <value>App hinzufügen</value>
+    <value>Ajouter une application</value>
   </data>
   <data name="MixingTable_RemoveChannel_Button" xml:space="preserve">
-    <value>Kanal entfernen</value>
+    <value>Supprimer le canal</value>
   </data>
   <data name="MixingTable_CloseWindow_Button" xml:space="preserve">
-    <value>Fenster schließen</value>
+    <value>Fermer la fenêtre</value>
   </data>
   <data name="MixingTable_AddOutput_Button" xml:space="preserve">
-    <value>Ausgang hinzufügen</value>
+    <value>Ajouter une sortie</value>
   </data>
   <data name="MixingTable_Header_AudioOutput" xml:space="preserve">
-    <value>Audioausgang</value>
+    <value>Sortie audio</value>
   </data>
   <data name="MixingTable_DeleteMix_Button" xml:space="preserve">
-    <value>Mischung löschen</value>
+    <value>Supprimer le mixage</value>
   </data>
   <data name="MixingTable_Output_Device_All_Assigned" xml:space="preserve">
-    <value>Keine weiteren Ausgabegeräte verfügbar</value>
+    <value>Aucun autre appareil de sortie disponible</value>
   </data>
   <data name="MixingTable_Output_Device_Virtual" xml:space="preserve">
-    <value>{0} (virtuell)</value>
+    <value>{0} (virtuel)</value>
   </data>
   <data name="change_channel_icon_title" xml:space="preserve">
-    <value>Kanalsymbol auswählen</value>
+    <value>Sélectionner l'icône du canal</value>
   </data>
   <data name="standard_app_icon_title" xml:space="preserve">
-    <value>Standard-App-Symbol</value>
+    <value>Icône d'application standard</value>
   </data>
   <data name="standard_device_icon_title" xml:space="preserve">
-    <value>Standardsymbol</value>
+    <value>Icône standard</value>
   </data>
   <data name="music_icon_title" xml:space="preserve">
-    <value>Musiksymbol</value>
+    <value>Icône musique</value>
   </data>
   <data name="browser_icon_title" xml:space="preserve">
-    <value>Browser-Symbol</value>
+    <value>Icône navigateur</value>
   </data>
   <data name="system_icon_title" xml:space="preserve">
-    <value>Systemsymbol</value>
+    <value>Icône système</value>
   </data>
   <data name="game_icon_title" xml:space="preserve">
-    <value>Spiel-Symbol</value>
+    <value>Icône jeu</value>
   </data>
   <data name="sfx_icon_title" xml:space="preserve">
-    <value>SFX-Symbol</value>
+    <value>Icône SFX</value>
   </data>
   <data name="voice_chat_icon_title" xml:space="preserve">
-    <value>Sprachchat-Symbol</value>
+    <value>Icône chat vocal</value>
   </data>
   <data name="mic_icon_title" xml:space="preserve">
-    <value>Mikrofonsymbol</value>
+    <value>Icône micro</value>
   </data>
   <data name="aux_1_icon_title" xml:space="preserve">
-    <value>Aux 1-Symbol</value>
+    <value>Icône Aux 1</value>
   </data>
   <data name="aux_2_icon_title" xml:space="preserve">
-    <value>Aux 2-Symbol</value>
+    <value>Icône Aux 2</value>
   </data>
   <data name="Settings_AudioEffectsCategory" xml:space="preserve">
-    <value>Effekte</value>
+    <value>Effets</value>
   </data>
   <data name="Settings_AudioEffects_Title" xml:space="preserve">
-    <value>Audioeffekte</value>
+    <value>Effets audio</value>
   </data>
   <data name="Settings_AudioEffects_VST3_Folder_Title" xml:space="preserve">
-    <value>VST3-Ordner</value>
+    <value>Dossier VST3</value>
   </data>
   <data name="Settings_AudioEffects_VST2_Folder_Title" xml:space="preserve">
-    <value>VST2-Ordner</value>
+    <value>Dossier VST2</value>
   </data>
   <data name="Settings_AudioEffects_Check_for_plugins_Button" xml:space="preserve">
-    <value>Nach Plugins suchen</value>
+    <value>Rechercher des plugins</value>
   </data>
   <data name="Settings_AudioEffects_AutoScale_Checkbox" xml:space="preserve">
-    <value>Plugin-Fenster automatisch skalieren</value>
+    <value>Mise à l'échelle automatique des fenêtres de plugin</value>
   </data>
   <data name="Settings_AudioEffects_Notification_Checkbox" xml:space="preserve">
-    <value>Neue Plugins beim Start anzeigen</value>
+    <value>Afficher les nouveaux plugins au démarrage</value>
   </data>
   <data name="NavigationBar_Marketplace" xml:space="preserve">
-    <value>Marktplatz</value>
+    <value>Marketplace</value>
   </data>
   <data name="Settings_AudioEffects_VST2_ChangeFolder" xml:space="preserve">
-    <value>Ändern</value>
+    <value>Changer</value>
   </data>
   <data name="Settings_AudioEffects_PluginPath_Title" xml:space="preserve">
-    <value>Plugin-Pfade</value>
+    <value>Chemins des plugins</value>
   </data>
   <data name="Settings_AudioEffects_ManagePlugin_Title" xml:space="preserve">
-    <value>Plugins verwalten</value>
+    <value>Gérer les plugins</value>
   </data>
   <data name="NavigationBar_MixesAndEffects" xml:space="preserve">
-    <value>Mischungen &amp; Effekte</value>
+    <value>Mixages et effets</value>
   </data>
   <data name="ElgatoDevice_SelfMonitoring" xml:space="preserve">
-    <value>Selbstüberwachung</value>
+    <value>Auto-monitoring</value>
   </data>
   <data name="ElgatoDevice_MicPcMix" xml:space="preserve">
-    <value>Mikrofon/PC-Mix</value>
+    <value>Mix micro/PC</value>
   </data>
   <data name="OnboardingWizard_AutoGain_Description" xml:space="preserve">
     <value>To get clear, balanced audio, your mic needs the right gain.
@@ -504,57 +504,57 @@ Try saying:
 Click Start when you’re ready.</value>
   </data>
   <data name="OnboardingWizard_ControlDial_Title" xml:space="preserve">
-    <value>Multifunktionales Steuerrad</value>
+    <value>Cadran de contrôle multifonction</value>
   </data>
   <data name="OnboardingWizard_Wave1_ControlDial_Description" xml:space="preserve">
-    <value>Verwenden Sie das Drehrad, um wichtige Mikrofonfunktionen schnell zu steuern:</value>
+    <value>Utilisez le cadran pour contrôler rapidement les fonctions clés du micro :</value>
   </data>
   <data name="OnboardingWizard_ExploreDevice_Description" xml:space="preserve">
-    <value>Lernen Sie Ihr {0} kennen — einen Klick nach dem anderen.</value>
+    <value>Apprenez à connaître votre {0} — un clic à la fois.</value>
   </data>
   <data name="OnboardingWizard_Wave1_Mute_Title" xml:space="preserve">
-    <value>Sofort stummschalten oder Stummschaltung aufheben</value>
+    <value>Couper ou réactiver instantanément</value>
   </data>
   <data name="OnboardingWizard_Wave1_Mute_Description" xml:space="preserve">
-    <value>Drücken Sie das Drehrad, um Ihr Mikrofon stumm zu schalten oder die Stummschaltung aufzuheben. Die LED leuchtet rot, wenn stumm geschaltet.</value>
+    <value>Appuyez sur le cadran pour couper ou réactiver votre micro. La LED brille en rouge lorsqu'elle est en sourdine.</value>
   </data>
   <data name="OnboardingWizard_Wave1_OutputVolume_Description" xml:space="preserve">
-    <value>Drehen Sie das Rad, um Ihre Ausgangslautstärke zu ändern. Stellen Sie sicher, dass Ihre Kopfhörer an die 3,5-mm-Buchse auf der Rückseite angeschlossen sind.</value>
+    <value>Tournez le cadran pour changer votre volume de sortie. Assurez-vous que votre casque est branché dans la prise 3,5 mm à l'arrière.</value>
   </data>
   <data name="OnboardingWizard_Wave1_DialFunction_Title" xml:space="preserve">
-    <value>Möchten Sie stattdessen die Mikrofonverstärkung steuern?</value>
+    <value>Voulez-vous plutôt contrôler le gain du micro ?</value>
   </data>
   <data name="OnboardingWizard_Wave1_DialFunction_Description" xml:space="preserve">
     <value>You can switch the dial’s function at any time in the Wave Link app.</value>
   </data>
   <data name="OnboardingWizard_Wave1_OutputVolume_Title" xml:space="preserve">
-    <value>Ausgangslautstärke anpassen</value>
+    <value>Ajuster le volume de sortie</value>
   </data>
   <data name="OnboardingWizard_InputGain_Title" xml:space="preserve">
-    <value>Eingangsverstärkung einstellen</value>
+    <value>Définir le gain d'entrée</value>
   </data>
   <data name="OnboardingWizard_InputGain_Description" xml:space="preserve">
-    <value>Die Eingangsverstärkung steuert, wie stark Ihr Mikrofon Ihre Stimme verstärkt. Mehr Verstärkung bedeutet lauteres Audio, aber zu viel kann unerwünschte Geräusche aufnehmen.
+    <value>Le gain d'entrée contrôle combien votre micro amplifie votre voix. Plus de gain signifie un audio plus fort, mais trop peut capter des bruits indésirables.
 
-Ihr idealer Pegel hängt davon ab, wie Sie sprechen, wie weit Sie vom Mikrofon entfernt sind und vom Mikrofon selbst.</value>
+Votre niveau idéal dépend de la façon dont vous parlez, de votre distance par rapport au micro et du micro lui-même.</value>
   </data>
   <data name="OnboardingWizard_DirectMonitorVolume_Title" xml:space="preserve">
-    <value>Mikrofon- und PC-Audio ausbalancieren</value>
+    <value>Équilibrer le micro et l'audio PC</value>
   </data>
   <data name="OnboardingWizard_Wave3_DirectMonitorVolume_Description" xml:space="preserve">
-    <value>Der Mikrofon/PC-Mix ermöglicht es Ihnen zu steuern, was Sie in Ihren Kopfhörern hören — eine Mischung aus Ihrer Stimme (mit latenzfreier Überwachung) und Audio von Ihrem PC.</value>
+    <value>Le mix micro/PC vous permet de contrôler ce que vous entendez dans votre casque — mélangeant votre voix (avec monitoring sans latence) et l'audio de votre PC.</value>
   </data>
   <data name="OnboardingWizard_Wave3_ControlDial_Description" xml:space="preserve">
-    <value>Passen Sie Mikrofonverstärkung, Kopfhörerlautstärke und Ihren Mikrofon/PC-Mix an — alles mit einem Drehrad.</value>
+    <value>Ajustez le gain du micro, le volume du casque et votre mix micro/PC — le tout avec un seul cadran.</value>
   </data>
   <data name="OnboardingWizard_WaveXlrMk12_ControlDial_Description" xml:space="preserve">
-    <value>Steuern und passen Sie Kerneinstellungen an, einschließlich Mikrofonverstärkung, Kopfhörerlautstärke, Mikrofon/PC-Mix und Phantomspeisung.</value>
+    <value>Contrôlez et ajustez les paramètres de base, y compris le gain du micro, le volume du casque, le mix micro/PC et l'alimentation fantôme.</value>
   </data>
   <data name="OnboardingWizard_OutputVolume_Title" xml:space="preserve">
-    <value>Ausgangslautstärke anpassen</value>
+    <value>Ajuster le volume de sortie</value>
   </data>
   <data name="OnboardingWizard_WaveXlrMk2_DirectMonitorVolume_Description" xml:space="preserve">
-    <value>Die Selbstüberwachung steuert, was Sie in Ihren Kopfhörern hören — balanciert Ihre Stimme (mit verzögerungsfreier Überwachung) und Audio von Ihrem verbundenen PC.</value>
+    <value>L'auto-monitoring contrôle ce que vous entendez dans votre casque — équilibrant votre voix (avec monitoring sans délai) et l'audio de votre PC connecté.</value>
   </data>
   <data name="OnboardingWizard_WaveXlr_PhantomPower_Description" xml:space="preserve">
     <value>To power your condenser mic, press and hold the control dial for 2 seconds, or enable Phantom Power in Wave Link. The LED confirms when it’s on. If you’re using a dynamic mic, keep Phantom Power off.</value>
@@ -563,168 +563,168 @@ Ihr idealer Pegel hängt davon ab, wie Sie sprechen, wie weit Sie vom Mikrofon e
     <value>Enable phantom power in the Wave Link app when using a condenser microphone. The 48V LED will light up to confirm it’s active. It is recommended to turn off phantom power when using a dynamic microphone.</value>
   </data>
   <data name="OnboardingWizard_BetterMaker_Description" xml:space="preserve">
-    <value>Erhalten Sie in Sekundenschnelle einen satten, band-inspirierten Sound. Voice Tune mischt Kompression und Harmonien, um jedes Signal zu verbessern.</value>
+    <value>Obtenez un son riche inspiré de la bande en quelques secondes. Voice Tune mélange compression et harmoniques pour améliorer n'importe quel signal.</value>
   </data>
   <data name="OnboardingWizard_StreamDeckControl_Title" xml:space="preserve">
-    <value>Steuern Sie Wave Link mit Stream Deck</value>
+    <value>Contrôlez Wave Link avec Stream Deck</value>
   </data>
   <data name="OnboardingWizard_StreamDeckControl_Description1" xml:space="preserve">
-    <value>Verwalten Sie Ihr Audio im Handumdrehen mit einem Tastendruck oder einer Drehung des Drehrades von Ihrem Stream Deck.</value>
+    <value>Gérez votre audio à la volée avec une pression de touche ou un tour de cadran depuis votre Stream Deck.</value>
   </data>
   <data name="OnboardingWizard_StreamDeckControl_Description2" xml:space="preserve">
-    <value>Installieren Sie das offizielle Wave Link Plugin, um Ihr Mikrofon und Ihre Audiokanäle über {0} zu steuern — fügen Sie Apps hinzu, passen Sie Pegel an, schalten Sie Quellen stumm, schalten Sie Effekte um und überwachen Sie Audio in Echtzeit mit Tasten und Drehrädern, die sich während des Mischens aktualisieren.</value>
+    <value>Installez le plugin officiel Wave Link pour contrôler votre micro et vos canaux audio via {0} — ajoutez des applications, ajustez les niveaux, coupez les sources, activez les effets et surveillez l'audio en temps réel avec des touches et des cadrans qui se mettent à jour pendant que vous mixez.</value>
   </data>
   <data name="OnboardingWizard_MicrophonePosition_Description" xml:space="preserve">
-    <value>Für den besten Klang:</value>
+    <value>Pour le meilleur son :</value>
   </data>
   <data name="DialFunction_OutputVolume" xml:space="preserve">
-    <value>Ausgangslautstärke</value>
+    <value>Volume de sortie</value>
   </data>
   <data name="DialFunction_InputGain" xml:space="preserve">
-    <value>Eingangsverstärkung</value>
+    <value>Gain d'entrée</value>
   </data>
   <data name="Notification_NewPluginsFound_Title" xml:space="preserve">
-    <value>Neue Plugins gefunden</value>
+    <value>Nouveaux plugins trouvés</value>
   </data>
   <data name="Notification_NewPluginsFound_Desc" xml:space="preserve">
-    <value>{0} neue(s) Plugin(s) gefunden</value>
+    <value>{0} nouveau(x) plugin(s) trouvé(s)</value>
   </data>
   <data name="ElgatoDevice_LowCutOnOff_Wave1_Wave3" xml:space="preserve">
-    <value>Verbesserter Tiefenfilter</value>
+    <value>Coupe-bas amélioré</value>
   </data>
   <data name="ElgatoDevicePage_Effects_NoneAvailable" xml:space="preserve">
-    <value>Keine Audioeffekte verfügbar</value>
+    <value>Aucun effet audio disponible</value>
   </data>
   <data name="OnboardingWizard_InputGainFeedback_TooLow" xml:space="preserve">
-    <value>Ihr Mikrofon ist zu leise — versuchen Sie, die Verstärkung zu erhöhen.</value>
+    <value>Votre micro est trop silencieux — essayez d'augmenter le gain.</value>
   </data>
   <data name="OnboardingWizard_InputGainFeedback_TooHigh" xml:space="preserve">
-    <value>Ihr Mikrofon ist zu laut — versuchen Sie, die Verstärkung zu verringern.</value>
+    <value>Votre micro est trop fort — essayez de diminuer le gain.</value>
   </data>
   <data name="OnboardingWizard_InputGainFeedback_Good" xml:space="preserve">
-    <value>Großartig! Ihr Eingangsverstärkungspegel ist genau dort, wo er sein sollte.</value>
+    <value>Super ! Votre niveau de gain d'entrée est exactement là où il devrait être.</value>
   </data>
   <data name="OnboardingWizard_Monitoring_PlugHeadphones" xml:space="preserve">
-    <value>Bevor Sie beginnen, schließen Sie Ihre Kopfhörer an.</value>
+    <value>Avant de commencer, connectez votre casque.</value>
   </data>
   <data name="OnboardingWizard_Monitoring_ZeroLatency" xml:space="preserve">
-    <value>Hören Sie sich selbst beim Sprechen. Die Echtzeitüberwachung spielt Ihre Stimme durch Ihre Kopfhörer ohne Verzögerung ab, sodass Sie immer die Kontrolle haben.</value>
+    <value>Entendez-vous pendant que vous parlez. Le monitoring en temps réel retransmet votre voix dans votre casque sans délai, vous êtes donc toujours maître du son.</value>
   </data>
   <data name="OnboardingWizard_AudioSample_Header" xml:space="preserve">
-    <value>PC-Audio-Beispiel</value>
+    <value>Échantillon audio PC</value>
   </data>
   <data name="OnboardingWizard_AudioSample_Subtext" xml:space="preserve">
-    <value>Klicken Sie auf das Lautsprechersymbol, um einen simulierten PC-Sound zusammen mit Ihrem Mikrofon zu hören.</value>
+    <value>Cliquez sur l'icône du haut-parleur pour entendre un son PC simulé avec votre micro.</value>
   </data>
   <data name="OnboardingWizard_Monitoring_DragSlider" xml:space="preserve">
-    <value>Während Sie in Ihr Mikrofon sprechen, verwenden Sie den Schieberegler, um zwischen Ihrer Stimme und PC-Audio zu balancieren.</value>
+    <value>Tout en parlant dans votre micro, utilisez le curseur pour équilibrer entre votre voix et l'audio PC.</value>
   </data>
   <data name="Notification_NewPluginsFound_TeachingTip_Title" xml:space="preserve">
-    <value>Folgende Plugins wurden gefunden:</value>
+    <value>Les plugins suivants ont été trouvés :</value>
   </data>
   <data name="Notification_NewPluginsFound_TeachingTip_SubTitle" xml:space="preserve">
-    <value>und mehr...</value>
+    <value>et plus encore...</value>
   </data>
   <data name="Notification_BrokenPluginsFound_Title" xml:space="preserve">
-    <value>Defekte Plugins gefunden</value>
+    <value>Plugins cassés trouvés</value>
   </data>
   <data name="Notification_BrokenPluginsFound_Desc" xml:space="preserve">
-    <value>{0} defekte(s) Plugin(s) gefunden</value>
+    <value>{0} plugin(s) cassé(s) trouvé(s)</value>
   </data>
   <data name="Notification_BrokenPluginsFound_TeachingTip_Title" xml:space="preserve">
-    <value>Folgende Plugins sind defekt:</value>
+    <value>Les plugins suivants sont cassés :</value>
   </data>
   <data name="Notification_BrokenPluginsFound_TeachingTip_SubTitle" xml:space="preserve">
-    <value>und mehr...</value>
+    <value>et plus encore...</value>
   </data>
   <data name="Notification_IncompatiblePluginsFound_Title" xml:space="preserve">
-    <value>Inkompatible Plugins gefunden</value>
+    <value>Plugins incompatibles trouvés</value>
   </data>
   <data name="Notification_IncompatiblePluginsFound_Desc" xml:space="preserve">
-    <value>{0} inkompatible(s) Plugin(s) gefunden</value>
+    <value>{0} plugin(s) incompatible(s) trouvé(s)</value>
   </data>
   <data name="Notification_IncompatiblePluginsFound_TeachingTip_Title" xml:space="preserve">
-    <value>Folgende Plugins sind inkompatibel:</value>
+    <value>Les plugins suivants sont incompatibles :</value>
   </data>
   <data name="Notification_IncompatiblePluginsFound_TeachingTip_SubTitle" xml:space="preserve">
-    <value>und mehr...</value>
+    <value>et plus encore...</value>
   </data>
   <data name="Notification_DeletedPluginsFound_Title" xml:space="preserve">
-    <value>Gelöschte Plugins gefunden</value>
+    <value>Plugins supprimés trouvés</value>
   </data>
   <data name="Notification_DeletedPluginsFound_Desc" xml:space="preserve">
-    <value>{0} gelöschte(s) Plugin(s) gefunden</value>
+    <value>{0} plugin(s) supprimé(s) trouvé(s)</value>
   </data>
   <data name="Notification_DeletedPluginsFound_TeachingTip_Title" xml:space="preserve">
-    <value>Folgende Plugins wurden gelöscht:</value>
+    <value>Les plugins suivants ont été supprimés :</value>
   </data>
   <data name="Notification_DeletedPluginsFound_TeachingTip_SubTitle" xml:space="preserve">
-    <value>und mehr...</value>
+    <value>et plus encore...</value>
   </data>
   <data name="Notification_TeachingTip_ShowButton" xml:space="preserve">
-    <value>Anzeigen</value>
+    <value>Afficher</value>
   </data>
   <data name="OnboardingWizard_MicrophonePosition_Direction_Title_NonXLR" xml:space="preserve">
-    <value>Sprechen Sie in die Seite von {0}</value>
+    <value>Parlez dans le côté de {0}</value>
   </data>
   <data name="OnboardingWizard_MicrophonePosition_Direction_Decription_WaveNeo" xml:space="preserve">
-    <value>Stellen Sie sicher, dass die kapazitive Stummschalttaste zu Ihnen zeigt.</value>
+    <value>Assurez-vous que le bouton de sourdine capacitif vous fait face.</value>
   </data>
   <data name="OnboardingWizard_MicrophonePosition_Distance_Title" xml:space="preserve">
-    <value>Halten Sie den richtigen Abstand</value>
+    <value>Gardez la bonne distance</value>
   </data>
   <data name="OnboardingWizard_MicrophonePosition_Distance_Description" xml:space="preserve">
-    <value>Verwenden Sie Ihre Hand zum Messen — Daumen am Mund, kleiner Finger zum Mikrofon zeigend.</value>
+    <value>Utilisez votre main pour mesurer — pouce à votre bouche, petit doigt pointant vers le micro.</value>
   </data>
   <data name="OnboardingWizard_MicrophonePosition_Direction_Title_XLR" xml:space="preserve">
-    <value>Sprechen Sie in die Oberseite von Wave DX</value>
+    <value>Parlez dans le haut de Wave DX</value>
   </data>
   <data name="OnboardingWizard_MicrophonePosition_Direction_Description_XLR" xml:space="preserve">
-    <value>Richten Sie das Ende des Mikrofons auf Ihren Mund, nicht die Seite.</value>
+    <value>Dirigez l'extrémité du micro vers votre bouche, pas le côté.</value>
   </data>
   <data name="OnboardingWizard_MicrophonePosition_Direction_Decription_Wave13" xml:space="preserve">
-    <value>Stellen Sie sicher, dass das Elgato-Logo zu Ihnen zeigt.</value>
+    <value>Assurez-vous que le logo Elgato vous fait face.</value>
   </data>
   <data name="Notification_MarketplaceDownloadStarted_Title" xml:space="preserve">
-    <value>Download gestartet</value>
+    <value>Téléchargement commencé</value>
   </data>
   <data name="Notification_MarketplaceDownloadStarted_Desc" xml:space="preserve">
-    <value>{0} wird jetzt heruntergeladen</value>
+    <value>{0} est en cours de téléchargement</value>
   </data>
   <data name="Notification_MarketplaceDownloadCompleted_Title" xml:space="preserve">
-    <value>Download abgeschlossen</value>
+    <value>Téléchargement terminé</value>
   </data>
   <data name="Notification_MarketplaceDownloadCompleted_Desc" xml:space="preserve">
-    <value>{0} wurde heruntergeladen</value>
+    <value>{0} a été téléchargé</value>
   </data>
   <data name="Notification_MarketplaceDownloadFailed_Title" xml:space="preserve">
-    <value>Download fehlgeschlagen</value>
+    <value>Échec du téléchargement</value>
   </data>
   <data name="Notification_MarketplaceDownloadFailed_Desc" xml:space="preserve">
-    <value>Fehler beim Herunterladen von {0}, bitte versuchen Sie es erneut</value>
+    <value>Échec du téléchargement de {0}, veuillez réessayer</value>
   </data>
   <data name="OnboardingWizard_ControlDial_Wave3_Press" xml:space="preserve">
-    <value>Drücken, um zwischen Funktionen zu wechseln</value>
+    <value>Appuyez pour basculer entre les fonctions</value>
   </data>
   <data name="OnboardingWizard_ControlDial_Wave3_TurnRight" xml:space="preserve">
-    <value>Nach rechts drehen, um zu erhöhen</value>
+    <value>Tournez à droite pour augmenter</value>
   </data>
   <data name="OnboardingWizard_ControlDial_Wave3_TurnLeft" xml:space="preserve">
-    <value>Nach links drehen, um zu verringern</value>
+    <value>Tournez à gauche pour diminuer</value>
   </data>
   <data name="OnboardingWizard_ControlDial_XLR_Press" xml:space="preserve">
-    <value>Drücken, um durch Mikrofoneinstellungen zu blättern</value>
+    <value>Appuyez pour parcourir les paramètres du micro</value>
   </data>
   <data name="OnboardingWizard_ControlDial_XLR_TurnLeftRight" xml:space="preserve">
-    <value>Nach rechts drehen, um zu erhöhen, nach links, um zu verringern</value>
+    <value>Tournez à droite pour augmenter, à gauche pour diminuer</value>
   </data>
   <data name="OnboardingWizard_ControlDial_XLR_PhantomPower" xml:space="preserve">
-    <value>2 Sekunden lang drücken und halten, um die Phantomspeisung umzuschalten</value>
+    <value>Appuyez et maintenez pendant 2 secondes pour activer/désactiver l'alimentation fantôme</value>
   </data>
   <data name="OnboardingWizard_WaveXlrMk1_DirectMonitorVolume_Description" xml:space="preserve">
-    <value>Der Mikrofon/PC-Mix ermöglicht es Ihnen zu steuern, was Sie in Ihren Kopfhörern hören — eine Mischung aus Ihrer Stimme (mit latenzfreier Überwachung) und Audio von Ihrem PC.</value>
+    <value>Le mix micro/PC vous permet de contrôler ce que vous entendez dans votre casque — mélangeant votre voix (avec monitoring sans latence) et l'audio de votre PC.</value>
   </data>
   <data name="ElgatoDevice_VoiceFocus_TeachingTip_Subtitle" xml:space="preserve">
-    <value>Bereinigt Ihr Audio mit KI-gestützter Geräusch- und Echoreduktion.</value>
+    <value>Nettoie votre audio grâce à la réduction du bruit et de l'écho par IA.</value>
   </data>
 </root>
